@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="USBDrivers.MissileLauncher">
+    <Position X="1" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MissileLauncher.cs</FileName>
+      <HashCode>CkAKBBAAQkZCBAAhCAARAAAB0IAEEUAAQAQAQAkABCE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.HIDDevice" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>HIDDevice.cs</FileName>
+      <HashCode>EAAAAAAADCIAAwAgIAABAEAAAgABAAAAAAAAQAEEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="USBDrivers.Report" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Report.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAQAQEQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.OutputReport" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Report.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.InputReport" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Report.cs</FileName>
+      <HashCode>EAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.BuzzHandsetDevice">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BuzzHandsetDevice.cs</FileName>
+      <HashCode>AAAAIAAEACAAAAAgAAAAAQAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.BuzzOutputReport" Collapsed="true">
+    <Position X="12.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BuzzHandsetDevice.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.BuzzInputReport" Collapsed="true">
+    <Position X="8.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>BuzzHandsetDevice.cs</FileName>
+      <HashCode>EAAAAMAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.Win32Usb" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Win32USB.cs</FileName>
+      <HashCode>AJAgQAAAAABCSEADgBQAgGgABCwhAAAQAWIEgSAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.DataEventArgs" Collapsed="true">
+    <Position X="17.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MissileLauncher.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.MissileLauncherOutputReport" Collapsed="true">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MissileLauncher.cs</FileName>
+      <HashCode>AADAQAIQAAAAACNACAAAAAAAQEAEAEAAAAAAAAQAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="USBDrivers.MissileLauncherInputReport">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MissileLauncher.cs</FileName>
+      <HashCode>EAAAQAAAAAAAQAAAAAAAAAAAAAAAIBAABAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
