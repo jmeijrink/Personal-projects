@@ -1,0 +1,8 @@
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\obj\Release\HoursAccountability.Controls.CodeNameFinder.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\obj\Release\HoursAccountability.Controls.csproj.GenerateResource.Cache
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\bin\Release\HoursAccountability.Controls.dll.config
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\bin\Release\HoursAccountability.Controls.dll
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\bin\Release\HoursAccountability.Controls.pdb
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\obj\Release\HoursAccountability.Controls.dll
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\Controls\obj\Release\HoursAccountability.Controls.pdb

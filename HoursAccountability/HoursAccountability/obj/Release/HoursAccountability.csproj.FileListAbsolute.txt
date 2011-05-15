@@ -1,0 +1,14 @@
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Release\HoursAccountability.exe.config
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Release\HoursAccountability.exe
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Release\HoursAccountability.pdb
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.HoursAccounting.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.Properties.Resources.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.Login.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.csproj.GenerateResource.Cache
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.exe
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.pdb
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Release\App.config
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.Controls.CodeNameFinder.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Release\HoursAccountability.XmlSerializers.dll
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Release\HoursAccountability.XmlSerializers.dll

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="HoursAccountability.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HoursAccountability_TwinfieldSession_Session" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://login.twinfield.com/webservices/session.asmx</Value>
+    </Setting>
+    <Setting Name="HoursAccountability_TwinfieldFinder_Finder" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://c1.twinfield.com/webservices/finder.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

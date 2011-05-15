@@ -1,0 +1,12 @@
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Debug\HoursAccountability.exe
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Debug\HoursAccountability.pdb
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.HoursAccounting.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.Properties.Resources.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.csproj.GenerateResource.Cache
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.exe
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.pdb
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Debug\HoursAccountability.exe.config
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.Login.resources
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\bin\Debug\App.config
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\HoursAccountability\HoursAccountability\obj\Debug\HoursAccountability.Controls.CodeNameFinder.resources
