@@ -1,0 +1,5 @@
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\BalieSystem.Controls\BalieSystem.Controls\obj\Release\ResolveAssemblyReference.cache
+D:\inetpub\baliesysteem\App_Code\BalieSystem.Controls.dll
+D:\inetpub\baliesysteem\App_Code\BalieSystem.Controls.pdb
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\BalieSystem.Controls\BalieSystem.Controls\obj\Release\BalieSystem.Controls.dll
+C:\Users\Jorre\Documents\Visual Studio 2008\Projects\BalieSystem.Controls\BalieSystem.Controls\obj\Release\BalieSystem.Controls.pdb
