@@ -1,0 +1,13 @@
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\Interop.DSOFile.dll
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\Flac2WMA.csproj.ResolveComReference.cache
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\bin\Debug\Flac2WMA.exe
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\bin\Debug\Flac2WMA.pdb
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\Flac2WMA.Form1.resources
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\Flac2WMA.Properties.Resources.resources
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\Flac2WMA.exe
+C:\Users\Jorre\Documents\Visual Studio 10\Projects\Flac2WMA\Flac2WMA\obj\x86\Debug\Flac2WMA.pdb
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\Flac2WMA\bin\Debug\AudioConverter.dll
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\Flac2WMA\bin\Debug\AudioConverter.pdb

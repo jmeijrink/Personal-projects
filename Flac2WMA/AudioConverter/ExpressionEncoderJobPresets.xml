@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created with Expression Encoder version 4.0.3205.0-->
+<Preset Version="4.0">
+  <Job OutputDirectory="C:\temp" SaveJobFileToOutputDirectory="False" CreateSubfolder="False" DefaultMediaOutputFileName="{OriginalFilename}.{DefaultExtension}" />
+  <MediaFile>
+    <Metadata MergeCollection="True">
+      <Item Name="WM/AlbumArtist" Value="Eminem" />
+      <Item Name="WM/AlbumTitle" Value="Recovery" />
+      <Item Name="WM/Genre" Value="Rap" />
+      <Item Name="WM/Year" Value="2010" />
+    </Metadata>
+    <OutputFormat>
+      <WindowsMediaOutputFormat>
+        <AudioProfile>
+          <WmaAudioProfile Codec="WmaLossless" Channels="2" BitsPerSample="16" SamplesPerSecond="44100">
+            <Bitrate>
+              <VariableQualityBitrate Quality="100" />
+            </Bitrate>
+          </WmaAudioProfile>
+        </AudioProfile>
+      </WindowsMediaOutputFormat>
+    </OutputFormat>
+  </MediaFile>
+</Preset>

@@ -1,0 +1,5 @@
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\AudioConverter\bin\Debug\AudioConverter.dll
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\AudioConverter\bin\Debug\AudioConverter.pdb
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\AudioConverter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\AudioConverter\obj\Debug\AudioConverter.dll
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\AudioConverter\obj\Debug\AudioConverter.pdb

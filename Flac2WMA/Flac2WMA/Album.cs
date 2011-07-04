@@ -36,7 +36,7 @@ namespace Flac2WMA
                 {
                     if (line.StartsWith("FILE ")) break;
 
-                    string[] words = line.Split(new[] { ' ' }, 2);
+                    string[] words = line.Split(new[] { ' ' }, 3);
                     switch (words[0])
                     {
                         case "REM":

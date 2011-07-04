@@ -1,0 +1,5 @@
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\Wave2WMA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\temp\Wave2WMA.exe
+C:\temp\Wave2WMA.pdb
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\Wave2WMA\obj\x86\Debug\Wave2WMA.exe
+C:\Users\Jorre\documents\visual studio 10\Projects\Flac2WMA\Wave2WMA\obj\x86\Debug\Wave2WMA.pdb

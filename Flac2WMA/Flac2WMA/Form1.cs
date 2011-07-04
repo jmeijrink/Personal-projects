@@ -8,12 +8,15 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using Microsoft.Expression.Encoder;
+using System.Xml;
 
 namespace Flac2WMA
 {
     public partial class Form1 : Form
     {
         private const string _scratchPath = "C:\\temp";
+        private const string _presetFile = "jobpreset.xml";
+
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +24,7 @@ namespace Flac2WMA
 
         private void btnAnalyze_Click(object sender, EventArgs e)
         {
+            lvFlacs.Items.Clear();
             foreach (string filePath in Directory.GetFiles(txtPath.Text, "*.flac", SearchOption.AllDirectories))
             {
                 Album albumInfo = new Album(filePath);
@@ -37,53 +41,74 @@ namespace Flac2WMA
             job.OutputDirectory = _scratchPath;
             foreach (ListViewItem item in lvFlacs.Items)
             {
-                if (item.Checked)
-                {
-                    // Copy
-                    try
-                    {
-                        string flacFile = System.IO.Path.Combine(_scratchPath, System.IO.Path.GetFileName(item.Text));
-                        System.IO.File.Copy(item.Text, flacFile);
-                    }
-                    catch (Exception ex)
-                    {
-                        SetResult(item, "Unable to copy file {0}: {1}", item.Text, 
-                    }
-
-                    // Decode
-                    //C:\Program Files (x86)\Exact Audio Copy\Flac>flac -d "C:\temp\The Sunclub - Fiesta de los tamborileros (The Jaydee Remix).flac" C:\temp\test.wav
-                    string waveFile = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(flacFile), System.IO.Path.GetFileNameWithoutExtension(flacFile) + ".wav");
-                    var flacProc = new System.Diagnostics.Process();
-                    flacProc.StartInfo.WorkingDirectory = @"C:\Program Files (x86)\Exact Audio Copy\Flac";
-                    flacProc.StartInfo.FileName = "flac.exe";
-                    flacProc.StartInfo.Arguments = string.Format(" -d \"{0}\" \"{1}\"", flacFile, waveFile);
-                    flacProc.Start();
-                    flacProc.WaitForExit();
-                                        
-                    //encode
-                    job.MediaItems.Clear();
-
-                    MediaItem albumItem = new MediaItem(waveFile);
-                    job.MediaItems.Add(albumItem);
-                    job.ApplyPreset(Preset.FromFile(@"C:\temp\jobpreset1.xml"));
-                    job.Encode();
-
-                    //Add file properties
-                    DSOFile.OleDocumentProperties dso = new DSOFile.OleDocumentProperties();
-                    dso.Open(albumItem.ActualOutputFileFullPath, false, DSOFile.dsoFileOpenOptions.dsoOptionDefault);
-
-
-                }
+                if (item.Checked) PerformCopyAndConversion(job, item);
             }
         }
 
-        private void SetResult(ListViewItem albumItem, string result)
+        private void PerformCopyAndConversion(Job job, ListViewItem item)
+        {
+            string sourceFilePath = item.Text;
+            string sourceFolder = System.IO.Path.GetDirectoryName(sourceFilePath);
+            string flacFileName = System.IO.Path.GetFileName(sourceFilePath);
+
+            // Move
+            string flacFilePath;
+            try
+            {
+                flacFilePath = System.IO.Path.Combine(_scratchPath, flacFileName);
+                System.IO.File.Move(sourceFilePath, flacFilePath);
+            }
+            catch (Exception ex)
+            {
+                SetResult(item, "Unable to copy file {0}: {1}", item.Text, ex.Message);
+                return;
+            }
+
+            // Decode
+            string waveFilePath = System.IO.Path.Combine(_scratchPath, System.IO.Path.GetFileNameWithoutExtension(flacFilePath) + ".wav");
+            string exceptionMessage;
+            if (!AudioConverter.Flac2Wave.ConvertFlac2Wave(flacFilePath, waveFilePath, out exceptionMessage))
+            {
+                SetResult(item, "Error while decoding {0}: {1}", item.Text, exceptionMessage);
+                return;
+            }
+
+            Album albumInfo = (Album)item.Tag;
+            if (!AudioConverter.Wave2Wma.ConvertWave2Wma(waveFilePath, albumInfo.Artist, albumInfo.Title, albumInfo.Genre, albumInfo.Year, out exceptionMessage))
+            {
+                SetResult(item, "Error while encoding {0}: {1}", waveFilePath, exceptionMessage);
+                return;
+            }
+
+            // Move back to share
+            try
+            {
+                string wmaFileName = System.IO.Path.GetFileNameWithoutExtension(flacFileName) + ".wma";
+
+                flacFilePath = System.IO.Path.Combine(_scratchPath, System.IO.Path.GetFileName(item.Text));
+                System.IO.File.Move(System.IO.Path.Combine(_scratchPath, wmaFileName), System.IO.Path.Combine(sourceFolder, wmaFileName));
+            }
+            catch (Exception ex)
+            {
+                SetResult(item, "Unable to move file back to share {0}: {1}", item.Text, ex.Message);
+                return;
+            }
+
+            System.IO.File.Delete(flacFilePath);
+            System.IO.File.Delete(waveFilePath);
+            item.Checked = false;
+            lvFlacs.Update();
+        }
+
+
+
+        private void SetResult(ListViewItem albumItem, string result, params string[] args)
         {
             albumItem.BackColor = Color.MediumVioletRed;
             switch (albumItem.SubItems.Count)
             {
                 case 3:
-                    albumItem.SubItems.Add(result);
+                    albumItem.SubItems.Add(string.Format(result, args));
                     break;
                 case 4:
                     albumItem.SubItems[3].Text = result;
